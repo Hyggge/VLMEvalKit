@@ -22,7 +22,7 @@ GTHINKER_SYS_PROMPT = (
 )
 
 
-class Valley3Chat(BaseModel):
+class Valley2_5_Chat(BaseModel):
     """
     A multimodal chat model interface for the Valley2 architecture. (https://arxiv.org/abs/2501.05901)
 
@@ -42,7 +42,7 @@ class Valley3Chat(BaseModel):
 
     def __init__(
         self,
-        model_path='bytedance-research/Valley3',
+        model_path='bytedance-research/Valley2.5',
         max_new_tokens: int = 2048,
         seed=42,
         torch_dtype=torch.bfloat16,

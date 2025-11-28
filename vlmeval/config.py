@@ -1749,8 +1749,8 @@ valley_series = {
     "valley2_dpo": partial(
         Valley2Chat, model_path="bytedance-research/Valley2-DPO"
     ),
-    "valley3": partial(
-        Valley3Chat, use_gthinker_thinking=True, model_path="bytedance-research/Valley3"
+    "valley2.5": partial(
+        Valley2_5_Chat, use_gthinker_thinking=True, model_path="bytedance-research/Valley2.5"
     ),
 }
 
